@@ -57,7 +57,7 @@ function invalidCards(nestArr) {
     }
     return invArr;
 }
-
+console.log();
 console.log(invalidCards([valid1, valid2, valid3, valid4, valid5]));
 console.log();
 console.log(invalidCards([invalid1, invalid2, invalid3, invalid4, invalid5]));
@@ -94,10 +94,13 @@ function invalidCardCompanies(badCards) {
     }
     return(companies);
 }
-
+console.log();
 console.log(invalidCardCompanies([invalid1]));
+console.log();
 console.log(invalidCardCompanies([invalid2]));
+console.log();
 console.log(invalidCardCompanies(batch));
+
 
 
 
